@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang ="pt-br">
+	<head>
+		<meta charset="UFT-8">
+		<title>Calculador de material para cortina plastica</title>
+		<link rel="stylesheet" type="text/css" href="CSS/reset.css">
+		<link rel="stylesheet" type="text/css" href="CSS/index.css">
+	</head>
+	<body>
+		<header>
+			<div>
+				<h1><img src ="LOGO2.jpg" class="imagem-principal" alt="imagem cortina montada"></h1>
+				<h2 class="tituloPrincipal">Calculadora de quantidade de cortina plástica e trilhos.</h2>
+		</header>
+		<main>
+			<ul id="mensagemErro">
+				
+			</ul>
+			<form class="formulario">
+				<h3 class="Titulo-segundo">Entre com os dados para a realização do cálculo: </h3>
+				<label for ="altura">Altura do projeto: </label>
+				<input type="text" id="altura" class="input-padrao" required placeholder="x.xx">
+				<label for="largura">Largura do projeto: </label>
+				<input type="text" id="largura" class="input-padrao" required placeholder="x.xx">
+				<br>
+				<input type="submit" value="CALCULAR" class="enviar">
+			</form>
+			<span class="resultado"></span>
+		</main>
+		<footer>
+			<img class ="rodape" src="CALCULADORA.jpg" alt="Calculadora">
+		</footer>
+		<script type="text/javascript" src="javascript/capturaDados.js"></script>
+		<script type="text/javascript" src="javascript/calculaDados.js"></script>
+	</body>
+</html>
